@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+
+<html lang="id" class="scroll-smooth">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>dr. Dina Alifia Zahrania - Portofolio Dokter Umum</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+        
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+        }
+
+        h1, h2, h3, .nav-font {
+
+            font-family: 'Plus Jakarta Sans', sans-serif;
+
+        }
+
+        .glass-header {
+
+            background: rgba(255, 255, 255, 0.9);
+
+            backdrop-filter: blur(10px);
+
+        }
+
+        .card-hover:hover {
+
+            transform: translateY(-5px);
+
+            transition: all 0.3s ease;
+
+        }
+
+        /* Custom Pink Palette Override */
+
+        .text-pink-pastel { color: #f472b6; }
+
+        .bg-pink-pastel { background-color: #fdf2f8; }
+
+        .border-pink-pastel { border-color: #fce7f3; }
+
+    </style>
+
+</head>
+
+<body class="bg-[#fff9fb] text-slate-800">
+
+    <!-- 1. Header & Navigation -->
+
+    <header class="fixed w-full top-0 z-50 glass-header border-b border-pink-100">
+
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center">
+
+            <div class="flex flex-col">
+
+                <span class="text-xl font-extrabold text-pink-500 tracking-tight">dr. Dina Alifia Zahrania</span>
+
+                <span class="text-xs text-slate-500 font-medium hidden md:block italic">Melayani dengan empati, menjaga kesehatan dengan sepenuh hati</span>
+
+            </div>
+
+            
+
+            <!-- Mobile Menu Toggle -->
+
+            <button id="menu-btn" class="md:hidden text-slate-600 focus:outline-none">
+
+                <i class="fas fa-bars text-2xl"></i>
+
+            </button>
+
+            <ul id="menu" class="hidden w-full md:flex md:w-auto space-x-0 md:space-x-8 mt-4 md:mt-0 flex-col md:flex-row font-medium text-slate-600">
+
+                <li><a href="#home" class="block py-2 hover:text-pink-500 transition">Home</a></li>
+
+                <li><a href="#about" class="block py-2 hover:text-pink-500 transition">About</a></li>
+
+                <li><a href="#skills" class="block py-2 hover:text-pink-500 transition">Skills</a></li>
+
+                <li><a href="#portfolio" class="block py-2 hover:text-pink-500 transition">Portfolio</a></li>
+
+                <li><a href="#contact" class="block py-2 hover:text-pink-500 transition text-pink-600 font-bold md:font-medium">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- 2. Beranda (Home) -->
+
+    <section id="home" class="pt-32 pb-20 md:pt-48 md:pb-32 px-6">
+
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+            <div class="flex-1 text-center md:text-left">
+
+                <h2 class="text-pink-400 font-bold tracking-widest uppercase text-sm mb-3">Selamat Datang</h2>
+
+                <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+
+                    dr. Dina Alifia Zahrania
+
+                </h1>
+
+                <p class="text-xl text-pink-500 font-semibold mb-4 italic">Dokter Umum</p>
+
+                <p class="text-slate-600 text-lg mb-8 leading-relaxed max-w-2xl">
+
+                    Saya adalah lulusan Fakultas Kedokteran Universitas Padjadjaran yang berfokus pada pelayanan kesehatan dasar secara profesional dan humanis demi meningkatkan kualitas hidup masyarakat.
+
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+
+                    <a href="#portfolio" class="bg-pink-500 text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-pink-100 hover:bg-pink-600 transition">Lihat Portofolio</a>
+
+                    <a href="#contact" class="bg-white text-pink-500 border border-pink-100 px-8 py-4 rounded-xl font-bold hover:bg-pink-50 transition">Hubungi Saya</a>
+
+                </div>
+
+            </div>
+
+            <div class="flex-1 relative">
+
+                <!-- Foto Profil dr. Dina Alifia Zahrania -->
+
+                <div class="w-72 h-72 md:w-96 md:h-96 mx-auto relative">
+
+                    <div class="absolute inset-0 bg-pink-200 rounded-3xl rotate-3 shadow-lg"></div>
+
+                    <div class="relative w-full h-full bg-white rounded-3xl overflow-hidden shadow-2xl border-4 border-white flex items-center justify-center">
+
+                        <img src="https://raw.githubusercontent.com/dinaalifia776-beep/portofolio/refs/heads/main/IMG-20260205-WA0002.jpg" 
+
+                             alt="Foto dr. Dina Alifia Zahrania" 
+
+                             class="w-full h-full object-cover"
+
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+
+                        <div class="hidden w-full h-full bg-pink-100 items-center justify-center">
+
+                            <i class="fas fa-user-md text-9xl text-pink-300"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl hidden lg:block border border-pink-50">
+
+                    <div class="flex items-center gap-4">
+
+                        <div class="bg-pink-50 p-3 rounded-full text-pink-500">
+
+                            <i class="fas fa-heartbeat"></i>
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-xs text-slate-500">Lulusan</p>
+
+                            <p class="font-bold">FK UNPAD</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 3. Tentang Saya (About Me) -->
+
+    <section id="about" class="py-24 bg-white px-6">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+
+                <div>
+
+                    <h2 class="text-3xl font-extrabold text-slate-900 mb-8 border-l-4 border-pink-400 pl-4">Profil & Latar Belakang</h2>
+
+                    <p class="text-slate-600 leading-relaxed mb-6">
+
+                        Saya merupakan seorang dokter umum yang memiliki ketertarikan besar dalam pelayanan kesehatan dasar. Latar belakang pendidikan di bidang kedokteran membentuk saya untuk memahami pentingnya peran dokter dalam memberikan pelayanan medis yang tepat, aman, dan beretika.
+
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed mb-8">
+
+                        Tujuan utama saya adalah memberikan pelayanan kesehatan berkualitas, membangun hubungan yang baik dengan pasien, serta berkontribusi dalam meningkatkan derajat kesehatan masyarakat melalui upaya promotif dan preventif.
+
+                    </p>
+
+                    <h3 class="font-bold text-slate-900 mb-4">Pendidikan</h3>
+
+                    <ul class="space-y-4">
+
+                        <li class="flex gap-4">
+
+                            <div class="w-12 h-12 bg-pink-50 rounded-lg flex items-center justify-center text-pink-500 shrink-0">
+
+                                <i class="fas fa-university"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="font-bold text-slate-800">Fakultas Kedokteran Universitas Padjadjaran</p>
+
+                                <p class="text-sm text-slate-500">Pendidikan Dokter Umum</p>
+
+                            </div>
+
+                        </li>
+
+                        <li class="flex gap-4">
+
+                            <div class="w-12 h-12 bg-slate-50 rounded-lg flex items-center justify-center text-slate-400 shrink-0">
+
+                                <i class="fas fa-school"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="font-bold text-slate-800">SMAN 1 Subang</p>
+
+                            </div>
+
+                        </li>
+
+                        <li class="flex gap-4">
+
+                            <div class="w-12 h-12 bg-slate-50 rounded-lg flex items-center justify-center text-slate-400 shrink-0">
+
+                                <i class="fas fa-school"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="font-bold text-slate-800">MTsN 5 Karawang</p>
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                
+
+                <div class="bg-pink-50/50 p-8 rounded-3xl border border-pink-100">
+
+                    <h3 class="text-2xl font-bold text-slate-900 mb-8">Nilai Personal</h3>
+
+                    <div class="space-y-6">
+
+                        <div class="flex items-center gap-4">
+
+                            <i class="fas fa-check-circle text-pink-500"></i>
+
+                            <span class="font-medium">Empati dan kepedulian tinggi</span>
+
+                        </div>
+
+                        <div class="flex items-center gap-4">
+
+                            <i class="fas fa-check-circle text-pink-500"></i>
+
+                            <span class="font-medium">Komunikasi yang jelas dan efektif</span>
+
+                        </div>
+
+                        <div class="flex items-center gap-4">
+
+                            <i class="fas fa-check-circle text-pink-500"></i>
+
+                            <span class="font-medium">Disiplin dan tanggung jawab tinggi</span>
+
+                        </div>
+
+                        <div class="flex items-center gap-4">
+
+                            <i class="fas fa-check-circle text-pink-500"></i>
+
+                            <span class="font-medium">Profesionalisme dalam pelayanan</span>
+
+                        </div>
+
+                        <div class="flex items-center gap-4">
+
+                            <i class="fas fa-check-circle text-pink-500"></i>
+
+                            <span class="font-medium">Komitmen belajar berkelanjutan</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 4. Keahlian (Skills) -->
+
+    <section id="skills" class="py-24 px-6 bg-[#fff9fb]">
+
+        <div class="max-w-7xl mx-auto text-center mb-16">
+
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-4">Keahlian Utama</h2>
+
+            <p class="text-slate-500">Kompetensi klinis dan non-klinis dalam pelayanan medis</p>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm card-hover border border-pink-50">
+
+                <i class="fas fa-stethoscope text-3xl text-pink-400 mb-6 block"></i>
+
+                <h4 class="font-bold text-lg mb-3">Pemeriksaan Klinis</h4>
+
+                <p class="text-slate-500 text-sm">Pemeriksaan kesehatan awal dan penanganan awal pasien.</p>
+
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm card-hover border border-pink-50">
+
+                <i class="fas fa-comments text-3xl text-pink-400 mb-6 block"></i>
+
+                <h4 class="font-bold text-lg mb-3">Konsultasi Kesehatan</h4>
+
+                <p class="text-slate-500 text-sm">Edukasi kesehatan yang dipersonalisasi sesuai kebutuhan.</p>
+
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm card-hover border border-pink-50">
+
+                <i class="fas fa-bullhorn text-3xl text-pink-400 mb-6 block"></i>
+
+                <h4 class="font-bold text-lg mb-3">Promotif & Preventif</h4>
+
+                <p class="text-slate-500 text-sm">Penyuluhan pencegahan penyakit di masyarakat.</p>
+
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm card-hover border border-pink-50">
+
+                <i class="fas fa-user-shield text-3xl text-pink-400 mb-6 block"></i>
+
+                <h4 class="font-bold text-lg mb-3">Komunikasi Medis</h4>
+
+                <p class="text-slate-500 text-sm">Penyampaian informasi medis yang empati dan akurat.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 5. Portofolio & Proyek -->
+
+    <section id="portfolio" class="py-24 px-6 bg-white">
+
+        <div class="max-w-7xl mx-auto">
+
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-12 text-center">Karya & Proyek</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+                <!-- Proyek 1 -->
+
+                <div class="group overflow-hidden rounded-3xl border border-pink-100 bg-white shadow-sm hover:shadow-md transition">
+
+                    <div class="h-64 bg-pink-50 flex items-center justify-center overflow-hidden">
+
+                        <img src="https://raw.githubusercontent.com/dinaalifia776-beep/portofolio/refs/heads/main/4b41951673089f8037257b58442110f3.jpg" 
+
+                             alt="Edukasi PHBS Masyarakat" 
+
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+
+                        <div class="hidden w-full h-full bg-pink-50 items-center justify-center">
+
+                             <i class="fas fa-file-medical text-8xl text-pink-200"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-8">
+
+                        <h4 class="text-xl font-bold mb-3">Edukasi PHBS Masyarakat</h4>
+
+                        <p class="text-slate-500 mb-4">Penyusunan materi edukasi pola hidup bersih dan sehat yang ditujukan untuk meningkatkan kesadaran kebersihan diri masyarakat umum.</p>
+
+                        <span class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-xs font-bold uppercase tracking-wider">Public Health</span>
+
+                    </div>
+
+                </div>
+
+                <!-- Proyek 2 -->
+
+                <div class="group overflow-hidden rounded-3xl border border-pink-100 bg-white shadow-sm hover:shadow-md transition">
+
+                    <div class="h-64 bg-slate-50 flex items-center justify-center overflow-hidden">
+
+                        <img src="https://raw.githubusercontent.com/dinaalifia776-beep/portofolio/refs/heads/main/92ed3958721e0a422a7e76f0f154975c.jpg" 
+
+                             alt="Poster Edukasi Digital" 
+
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+
+                        <div class="hidden w-full h-full bg-slate-50 items-center justify-center">
+
+                             <i class="fas fa-image text-8xl text-slate-200"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-8">
+
+                        <h4 class="text-xl font-bold mb-3">Poster Edukasi Digital</h4>
+
+                        <p class="text-slate-500 mb-4">Pembuatan konten visual bertema "Pentingnya Menjaga Kesehatan Tubuh" sebagai media promotif digital yang informatif.</p>
+
+                        <span class="inline-block px-4 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-bold uppercase tracking-wider">Graphic Media</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 6. Pengalaman & Prestasi -->
+
+    <section class="py-24 px-6 bg-pink-900 text-white">
+
+        <div class="max-w-7xl mx-auto">
+
+            <h2 class="text-3xl font-extrabold mb-12 text-center">Pengalaman Profesional</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="border-l border-pink-700 pl-6 py-4">
+
+                    <h5 class="text-pink-300 font-bold mb-2 uppercase text-xs tracking-widest">Pelayanan Medis</h5>
+
+                    <p class="text-sm text-pink-100/70 leading-relaxed">Pemeriksaan awal dan konsultasi kesehatan dasar pasien.</p>
+
+                </div>
+
+                <div class="border-l border-pink-700 pl-6 py-4">
+
+                    <h5 class="text-pink-300 font-bold mb-2 uppercase text-xs tracking-widest">Edukasi Kesehatan</h5>
+
+                    <p class="text-sm text-pink-100/70 leading-relaxed">Penyuluhan intensif pola hidup sehat di berbagai lapisan masyarakat.</p>
+
+                </div>
+
+                <div class="border-l border-pink-700 pl-6 py-4">
+
+                    <h5 class="text-pink-300 font-bold mb-2 uppercase text-xs tracking-widest">Kegiatan Sosial</h5>
+
+                    <p class="text-sm text-pink-100/70 leading-relaxed">Pengabdian masyarakat melalui pelayanan kesehatan gratis/sosial.</p>
+
+                </div>
+
+                <div class="border-l border-pink-700 pl-6 py-4">
+
+                    <h5 class="text-pink-300 font-bold mb-2 uppercase text-xs tracking-widest">Pengembangan Diri</h5>
+
+                    <p class="text-sm text-pink-100/70 leading-relaxed">Aktif mengikuti seminar dan pelatihan medis terbaru.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 7. Kontak (Contact) -->
+
+    <section id="contact" class="py-24 px-6 bg-white">
+
+        <div class="max-w-3xl mx-auto text-center">
+
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-8">Hubungi Saya</h2>
+
+            <p class="text-slate-500 mb-12">Silakan hubungi saya untuk keperluan konsultasi, kolaborasi, atau informasi lebih lanjut.</p>
+
+            
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+
+                <a href="mailto:dinaalifia776@gmail.com" class="p-6 rounded-2xl bg-slate-50 hover:bg-pink-50 transition border border-slate-100 group">
+
+                    <i class="fas fa-envelope text-2xl text-slate-400 group-hover:text-pink-500 mb-4 block"></i>
+
+                    <p class="font-bold text-slate-800">Email</p>
+
+                    <p class="text-xs text-slate-500 mt-1 truncate px-2">dinaalifia776@gmail.com</p>
+
+                </a>
+
+                <a href="https://wa.me/6281300000000" class="p-6 rounded-2xl bg-slate-50 hover:bg-green-50 transition border border-slate-100 group">
+
+                    <i class="fab fa-whatsapp text-2xl text-slate-400 group-hover:text-green-500 mb-4 block"></i>
+
+                    <p class="font-bold text-slate-800">WhatsApp</p>
+
+                    <p class="text-xs text-slate-500 mt-1">0813-XXXX-XXXX</p>
+
+                </a>
+
+                <a href="https://instagram.com/alifia_fia11" class="p-6 rounded-2xl bg-slate-50 hover:bg-pink-50 transition border border-slate-100 group">
+
+                    <i class="fab fa-instagram text-2xl text-slate-400 group-hover:text-pink-600 mb-4 block"></i>
+
+                    <p class="font-bold text-slate-800">Instagram</p>
+
+                    <p class="text-xs text-slate-500 mt-1">@alifia_fia11</p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 8. Footer -->
+
+    <footer class="bg-pink-50/50 py-12 px-6 border-t border-pink-100">
+
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+
+            <div>
+
+                <p class="font-bold text-pink-600">dr. Dina Alifia Zahrania</p>
+
+                <p class="text-slate-500 text-sm">Dokter Umum | Melayani dengan Empati</p>
+
+            </div>
+
+            <div class="text-slate-400 text-sm">
+
+                &copy; 2026 Dina Alifia. All rights reserved.
+
+            </div>
+
+            <div class="flex gap-4">
+
+                <a href="#" class="w-10 h-10 rounded-full bg-white border border-pink-100 flex items-center justify-center text-slate-400 hover:text-pink-500 transition"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="https://instagram.com/alifia_fia11" class="w-10 h-10 rounded-full bg-white border border-pink-100 flex items-center justify-center text-slate-400 hover:text-pink-500 transition"><i class="fab fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        // Toggle mobile menu
+
+        const menuBtn = document.getElementById('menu-btn');
+
+        const menu = document.getElementById('menu');
+
+        
+
+        menuBtn.addEventListener('click', () => {
+
+            menu.classList.toggle('hidden');
+
+            menu.classList.toggle('flex');
+
+        });
+
+        // Close menu when clicking link
+
+        const menuLinks = menu.querySelectorAll('a');
+
+        menuLinks.forEach(link => {
+
+            link.addEventListener('click', () => {
+
+                if(window.innerWidth < 768) {
+
+                    menu.classList.add('hidden');
+
+                    menu.classList.remove('flex');
+
+                }
+
+            });
+
+        });
+
+        // Add background to header on scroll
+
+        window.addEventListener('scroll', () => {
+
+            const header = document.querySelector('header');
+
+            if (window.scrollY > 20) {
+
+                header.classList.add('shadow-sm');
+
+                header.classList.add('bg-white/95');
+
+            } else {
+
+                header.classList.remove('shadow-sm');
+
+                header.classList.remove('bg-white/95');
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+    
+  </body>
+  
+</html>
